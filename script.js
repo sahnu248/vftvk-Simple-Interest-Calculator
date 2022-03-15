@@ -26,5 +26,9 @@ function compute()
         exit;
     }
 }
-    
+    function moveFocus()
+{
+        document.getElementById("principal").focus();
+}
+   
         
