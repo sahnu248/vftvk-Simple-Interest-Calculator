@@ -17,13 +17,11 @@ function compute()
     var prval = document.getElementById("principal").value;
     if ( prval < 0 )
     {
-        document.getElementById("principal").focus();
         alert("Enter a positive number"); 
         exit;
     }
     else if ( prval == 0 )
     {
-        document.getElementById("principal").focus();
         alert("Principal cannot be zero. Enter a positive number");
         exit;
     }
