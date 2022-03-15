@@ -9,6 +9,8 @@ h1{color:grey;font-family:verdana}
     border-radius: 10px;
     text-align: center;
 }
-
-
+.highlighter {
+    background-color: yellow;
+    color: red;
+}
 
