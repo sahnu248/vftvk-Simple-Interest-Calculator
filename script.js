@@ -15,9 +15,15 @@ function compute()
     function validatePrincipal()
 {
     var prval = document.getElementById("principal").value;
-    if ( prval === 0 || prval < 0 )
+    if ( prval < 0 )
     {
         alert("Enter a positive number"); 
+        return;
+    }
+    else if ( prval == 0 )
+    {
+        alert("Principal cannot be zero. Enter a positive number")
+        return;
     }
 }
     
