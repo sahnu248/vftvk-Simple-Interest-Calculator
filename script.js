@@ -22,7 +22,7 @@ function compute()
     }
     else if ( prval == 0 )
     {
-        alert("Principal cannot be zero. Enter a positive number")
+        alert("Principal cannot be zero. Enter a positive number");
         exit;
     }
 }
