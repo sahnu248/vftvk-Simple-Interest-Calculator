@@ -12,4 +12,13 @@ function compute()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
+    function validatePrincipal()
+{
+    var prval = document.getElementById("principal").value;
+    if ( prval === 0 || prval < 0 )
+    {
+        alert("Enter a positive number"); 
+    }
+}
+    
         
